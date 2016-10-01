@@ -15,9 +15,7 @@ First, to setup the time server, make the following registry edits to enable the
 
 Enable the W32Time service to announce itself as a NTP server. Open the registry and navigate to:
 
-```
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32TimeConfig1
-```
+<script src="https://gist.github.com/russlescai/8b52f9ed8719c023b35c86143f1cb4b7.js"></script>
 
 Set the “AnnounceFlags” from 10 (or ‘a’ in hex) to 5.
 
