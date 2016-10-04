@@ -3,7 +3,7 @@ layout: post
 title: Setup Windows as a Time Server
 ---
 
-I have a Ubuntu VM running under Hyper-V on Windows 10. Time synchronisation is enabled, however after hybernation, or suspending my laptop, time is not resynched to my VM.
+I have an Ubuntu VM running under Hyper-V on Windows 10. Time synchronisation is enabled, however after hybernation, or suspending my laptop, time is not resynched to my VM.
 
 To make ubuntu synchronised more regularly, I have setup my Windows host as a time (NTP) server, enabled firewall rules and created a cron job to check time every minute.
 

@@ -23,9 +23,14 @@ body {
   color: $darkGray;
 }
 
-img.banner {
+.top-banner {
+  top: 0;
+  position: fixed;
+  height: 80px;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.8;
+  background-color: #3f7e7a;
+  color: white;
 }
 
 .container {
@@ -156,6 +161,7 @@ img {
 //
 
 .wrapper-masthead {
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
@@ -197,8 +203,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
-  cursor: pointer;
+  color: white;
   font-family: $karla;
   text-transform: uppercase;
   font-weight: 400;
@@ -217,8 +222,8 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  
+  //margin-top: 23px; // @TODO: Vertically middle align
   font-family: $karla;
   font-size: 18px;
   text-transform: uppercase;
@@ -231,9 +236,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
+    color: white;
     font-weight: 300;
     letter-spacing: 1px;
 
