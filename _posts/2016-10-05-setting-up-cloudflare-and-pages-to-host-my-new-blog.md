@@ -7,7 +7,7 @@ I am in the process of refreshing my blog, including setting up a custom domain,
 
 I set out with several objectives for my new blog. Firstly, it has to be cost effective. Not just cheap, but value for money. I want to spend more effort working on content, rather than managing hosting servers or updating software. Thirdly, future proof. If (when) I find this blog has outgrown itself - a good problem to have - I want it to be as easy as possible to expand.
 
-The first decision point was hosting options. I shortlisted [WordPress](https://www.wordpress.com), [Ghost](https://www.ghost.com) and [Github Pages](https://pages.github.com/).  I don't want to manage software patching or server updates, and some hosting providers do not always keep the platform up to date. Therefore, the host has to be a PAAS (Platform As A Service).
+The first decision point was hosting options. I shortlisted [WordPress](https://www.wordpress.com), [Ghost](https://www.ghost.com) and [Github Pages](https://pages.github.com/).  I don't want to manage software patching or server updates, and some hosting providers do not always keep the platform up to date. Therefore, the host has to be SAAS (Software As A Service).
 
 I investigated WordPress first, as my (albeit limited) content is already there, and I am familiar with the toolset. There are lots of themes to choose from too. While it is a free service, it is (currently) $17 per month to use a custom domain. While this isn't a huge amount,  $400 per year is significant considering my current blog size and traffic. WordPress has had their fair share of vulnerabilities as well. However I can somewhat mitigate vulnerabilities by not using third party plugins and using hosted services (which means it is kept up to date).
 
