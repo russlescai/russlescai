@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Allow Authentication Forwarding When Using SharePoint WebDAV with FQDN
-imgurl: images/blog-banner.jpg
+imgurl: ../images/blog-banner.jpg
 ---
 
 A common scenario for using WebDAV is for a SQL Server Integration Services (SSIS) package to read an Excel spread sheet stored in a SharePoint document library. The package imports the contents into a SQL database.   Business users are able to upload Spread sheets using SharePoint (no IT involvement required), data can automatically be imported (using scheduled SQL Jobs), and users can view reports (through Reporting Services in SharePoint Integrated Mode) with up-to-date data.  Here’s a diagram:
