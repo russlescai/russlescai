@@ -40,15 +40,15 @@ A side note in CloudFlare I noticed three crawlers, which had crawled my site wi
 * Twitter - Twitter URL preview and metadata crawler
 * applebot - Apple Siri search bot
 
-...Anyway, back to Twitter Cards. Twitter crawls sites to read metadata, which means it can take a while for Twitter to treat your URL differently. From my experience, I found that previous tweets WILL update once they crawl, you don't need to delete your tweet and recreate it. Also, using the Twitter Card Validator for blog posts made them update shortly after (about 5 minutes for me).
+...Anyway, back to Twitter Cards. Twitter crawls sites to read metadata, which means it can take a while for Twitter to treat your URL differently. From my experience, I found that previous tweets *WILL* update once they crawl, you don't need to delete your tweet and recreate it. Also, using the Twitter Card Validator for blog posts made them update shortly after (about 5 minutes for me).
 
 The [Twitter card validator](https://cards-dev.twitter.com/validator) is a site which you can use to preview your cards before tweeting, and to confirm your `<meta>` tags have been setup correctly.
 
 ![Twitter Card Validator](...)
 
-As you may know from my [article](/2016-10-05-setting-up-cloudflare-and-pages-to-host-my-new-blog/) about setting up this blog, I use Github Pages to host articles as plain HTML.  Github generates static HTML pages from Jekyll templates. Therefore, I can make the above meta tags dynamic, by using parameters at the top of each article.
+As you may know from my [article](/2016-10-05-setting-up-cloudflare-and-pages-to-host-my-new-blog/) about setting up this blog, I use Github Pages to host articles as static HTML pages.  Github generates static HTML pages from Jekyll templates, Therefore I can make the above meta tags dynamic, by using parameters at the top of each article.
 
-In my `default.html` layout page, I include the following:
+In my `meta.html` layout page, I include the following:
 
 ```
     <meta name="twitter:card" content="summary_large_image">
@@ -73,7 +73,6 @@ imgurl: images/blog-improve-your-tweek-links.jpg
 ---
 ```
 
-The fields are automatically populated in the `meta` tags, which means Twitter will render all posts nicely. Note I use relative URLs for my image inside each post, in the layout template I specify the `{{ site.url }}` parameter to ensure the link is absolute.
+The fields are automatically populated in the `meta` tags, which means Twitter will render all posts nicely. Note I use relative URLs for my image inside each post, in the layout template I specify the `{{ site.url }}` parameter to ensure the link is absolute afterwards.
 
 That's all there is to it! If you have any other tips which could help others, please put them in the comments!
-  
