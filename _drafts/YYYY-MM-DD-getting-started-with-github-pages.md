@@ -3,16 +3,6 @@ layout: post
 title: Getting Started with Github Pages
 ---
 
-TODO:
-
-* Add image for github signup
-* Add link for jekyll-now site
-* Add link for github for Windows
-* Add link for SourceTree
-* Create flyingcrown github accountf
-* Add image for basic jekyll folder structure
-* Add image for configure with custom domain
-
 As you may know, I am using [Github Pages](https://pages.github.com) to host my blog.  I previously wrote about [setting up CloudFlare and hosting for my blog](./2016-10-05-setting-up-cloudflare-and-pages-to-host-my-new-blog).  In this post I will go into some more detail about getting started with Github pages.
 
 Before going too far, I will mention this a technical article and a basic knowledge of git and markdown is required.
