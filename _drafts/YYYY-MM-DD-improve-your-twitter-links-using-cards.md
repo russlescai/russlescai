@@ -10,9 +10,7 @@ TODO:
 * Add twitter card image, and update link
 * Add twitter card preview image, and update link
 
-Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata.
-
-This is not new to Twitter, however it took me a while to find the right links, and to get it up and running.
+Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata.  Cards are not new to Twitter, however it took me a while to find the right links, and to get it up and running.
 
 Twitter Cards improve the layout of your URL link, by including title, description and optionally an image.  The two types of cards I have used are [Summary Card](https://dev.twitter.com/cards/types/summary) and [Summary Card with Large Image](https://dev.twitter.com/cards/types/summary-large-image)
 
