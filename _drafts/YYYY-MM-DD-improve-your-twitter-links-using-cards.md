@@ -27,7 +27,6 @@ The following (from the Twitter dev article), is an example of adding meta for a
     <meta name="twitter:title" content="Blog article about Elephants">
     <meta name="twitter:description" content="Elephants are the largest animals with trunks.">
     <meta name="twitter:image" content="https://mysite/svn/trunk/elephant.jpg">
-
 ```
 
 The above tags need to be inside your `<head>` tag for Twitter to read. Note, the image URL has to be an absolute URL. For example, /svn/trunk/elephant.jpg with *not* work.
@@ -55,7 +54,6 @@ In my `meta.html` layout page, I include the following:
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
     <meta name="twitter:image" content="{{ site.url }}/{{ page.imgurl }}">
-
 ```
 
 The title, description and image are automatically rendered when generating the static HTML. 
@@ -65,7 +63,7 @@ On the top of each of my posts, I now include the following:
 ```
 ---
 layout: post
-title: Improve your tweet links using cards
+title: Improve your Twitter links using Cards
 description: Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata. 
 imgurl: images/blog-improve-your-tweek-links.jpg
 ---
