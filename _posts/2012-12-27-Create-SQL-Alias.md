@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create SQL Alias
-imgurl: ../images/blog-banner.jpg
+imgurl: images/blog-banner.jpg
 ---
 
 A SQL Alias is an alternate name used to make a database connection.
