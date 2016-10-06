@@ -2,7 +2,7 @@
 layout: post
 title: Setting up CloudFlare and Github Pages to host my new Blog!
 description: I am in the process of refreshing my blog, including setting up a custom domain, and setting up HTTPS by default. I've used WordPress for my free blog previously, but want to explore other options, and keep  management as simple as possible.
-imgurl: /images/blog-banner.jpg
+imgurl: images/blog-banner.jpg
 ---
 
 I am in the process of refreshing my blog, including setting up a custom domain, and setting up HTTPS by default. I've used WordPress for my free blog previously, but want to explore other options, and keep  management as simple as possible.
