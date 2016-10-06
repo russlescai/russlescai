@@ -2,7 +2,7 @@
 layout: post
 title: Setup Windows as a Time Server
 description: I have an Ubuntu VM running under Hyper-V on Windows 10. Time synchronisation is enabled, however after hybernation, or suspending my laptop, time is not resynched to my VM. 
-imgurl: images/blog-banner.jpg
+imgurl: /images/blog-banner.jpg
 ---
 
 I have an Ubuntu VM running under Hyper-V on Windows 10. Time synchronisation is enabled, however after hybernation, or suspending my laptop, time is not resynched to my VM.
