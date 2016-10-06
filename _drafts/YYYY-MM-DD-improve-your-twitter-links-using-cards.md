@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improve your tweet links using cards
+title: Improve your Twitter links using Cards
 description: 
 imgurl: images/blog-banner.jpg
 ---
