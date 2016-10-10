@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Getting Started with Github Pages
+description: I am in the process of refreshing my blog, including setting up a custom domain, and setting up HTTPS by default. I've used WordPress for my free blog previously, but want to explore other options, and keep  management as simple as possible.
+imgurl: images/blog-banner.jpg
 ---
 
 As you may know, I am using [Github Pages](https://pages.github.com) to host my blog.  I previously wrote about [setting up CloudFlare and hosting for my blog](/setting-up-cloudflare-and-pages-to-host-my-new-blog/).  In this post I will go into some more detail about getting started with Github pages.
