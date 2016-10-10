@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Github Pages
 ---
 
-As you may know, I am using [Github Pages](https://pages.github.com) to host my blog.  I previously wrote about [setting up CloudFlare and hosting for my blog](/setting-up-cloudflare-and-pages-to-host-my-new-blog).  In this post I will go into some more detail about getting started with Github pages.
+As you may know, I am using [Github Pages](https://pages.github.com) to host my blog.  I previously wrote about [setting up CloudFlare and hosting for my blog](/setting-up-cloudflare-and-pages-to-host-my-new-blog/).  In this post I will go into some more detail about getting started with Github pages.
 
 Before going too far, I will mention this a technical article and a basic knowledge of git and markdown is required.
 
