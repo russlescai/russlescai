@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1>Posts for Tag: {{ page.name}}</h1>
+
+
+<div class="posts">
+{% for post in site.posts %}
+  {% for post_tag in post.tags %}
+      {% if post_tag == page.slug %}
+
+  <article class="post">
+
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+    <div class="date">
+      {{ post.date | date: "%B %e, %Y" }}
+    </div>
+
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>

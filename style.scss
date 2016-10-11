@@ -23,6 +23,11 @@ body {
   color: $darkGray;
 }
 
+.icon-tags:before{font-family: 'icomoon'; font-style: normal; content:"\e935"; vertical-align: baseline;}
+
+small {   font-style: italic;
+  color: $gray; font-size: 80%; font-weight: normal; }
+
 .top-banner {
   top: 0;
   position: fixed;
