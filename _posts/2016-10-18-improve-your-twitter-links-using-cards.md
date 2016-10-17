@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Improve your Twitter links using Cards
-description: Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata. 
+description: Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata.
 imgurl: images/blog-banner.jpg
+tags: [twitter]
 ---
 
 Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata.  Cards are not new to Twitter, however it took me a while to find the right links, and to get it up and running.
