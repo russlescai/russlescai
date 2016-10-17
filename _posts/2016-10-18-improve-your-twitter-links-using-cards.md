@@ -1,22 +1,17 @@
 ---
 layout: post
 title: Improve your Twitter links using Cards
-description: 
+description: Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata. 
 imgurl: images/blog-banner.jpg
 ---
-
-TODO:
-
-* Add twitter card image, and update link
-* Add twitter card preview image, and update link
 
 Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata.  Cards are not new to Twitter, however it took me a while to find the right links, and to get it up and running.
 
 Twitter Cards improve the layout of your URL link, by including title, description and optionally an image.  The two types of cards I have used are [Summary Card](https://dev.twitter.com/cards/types/summary) and [Summary Card with Large Image](https://dev.twitter.com/cards/types/summary-large-image)
 
-![Twitter Card](https://www.google.com)
+![Twitter Card](/images/sample-twitter-card.png)
 
-To use Twitter cards for your article, you need to include `<meta>` tags to the HTML. 
+To use Twitter cards for your article, you need to include `<meta>` tags to the HTML.
 
 The following (from the Twitter dev article), is an example of adding meta for a Summary Card with Large Image.
 
@@ -41,7 +36,7 @@ A side note in CloudFlare I noticed three crawlers, which had crawled my site wi
 
 The [Twitter card validator](https://cards-dev.twitter.com/validator) is a site which you can use to preview your cards before tweeting, and to confirm your `<meta>` tags have been setup correctly.
 
-![Twitter Card Validator](...)
+![Twitter Card Validator](/images/sample-card-validator.png)
 
 As you may know from my [article](/2016-10-05-setting-up-cloudflare-and-pages-to-host-my-new-blog/) about setting up this blog, I use Github Pages to host articles as static HTML pages.  Github generates static HTML pages from Jekyll templates, Therefore I can make the above meta tags dynamic, by using parameters at the top of each article.
 
@@ -56,7 +51,7 @@ In my `meta.html` layout page, I include the following:
     <meta name="twitter:image" content="{{ site.url }}/{{ page.imgurl }}">
 ```
 
-The title, description and image are automatically rendered when generating the static HTML. 
+The title, description and image are automatically rendered when generating the static HTML.
 
 On the top of each of my posts, I now include the following:
 
@@ -64,7 +59,7 @@ On the top of each of my posts, I now include the following:
 ---
 layout: post
 title: Improve your Twitter links using Cards
-description: Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata. 
+description: Twitter is a great way to promote blog articles to your followers. This article explains how to make your tweets look more appealing using an image and description metadata.
 imgurl: images/blog-improve-your-tweek-links.jpg
 ---
 ```
