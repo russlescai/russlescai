@@ -19,7 +19,7 @@ layout: default
 
 
   {% if post.tags.size > 0 %}
-    {% capture tags_content %} <span class="icon-tag{% if post.tags.size > 1 %}s{% endif %}"></span> {% endcapture %}
+    {% capture tags_content %} <span class="icon-tags"></span> {% endcapture %}
     {% for post_tag in post.tags %}
       {% assign tag = site.tags | where: "slug", post_tag %}
       {% if tag %}
