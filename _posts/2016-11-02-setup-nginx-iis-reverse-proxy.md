@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Use nginx as a Reverse Proxy for IIS Express
+description: IIS Express is used for development, and only listens to local requests. Nginx to the rescue!
 imgurl: images/blog-banner.jpg
 tags: [iis, nginx]
 ---
