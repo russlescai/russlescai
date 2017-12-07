@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: #334455;
+	background: $coffee;
   font: 18px/1.4 $karla;
   color: $darkGray;
 }
@@ -34,7 +34,7 @@ small {   font-style: italic;
   height: 80px;
   width: 100%;
   opacity: 0.8;
-  background-color: #3f7e7a;
+  background-color: #334455;
   color: white;
 }
 
