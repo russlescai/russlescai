@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Service Fabric On-Premise Secure Cluster
+title: Azure Service Fabric On-premise Secure Cluster
 description: Secure your Service Fabric cluster and ensure the cluster is in a healthy state
 imgurl: images/blog-banner.jpg
-tags: [service-fabric, certificates]
+tags: [service-fabric]
 ---
 
 Microsoft recently [released](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-deploy-anywhere) Azure Service Fabric which can be configured on-premise, as well as on Azure. This provides a staged transition of services to Azure in the future, without having to re-architect or migrate.
