@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Use nginx as a Reverse Proxy for IIS Express
-description: IIS Express is used for development, and only listens to local requests. Nginx to the rescue!
+title: Use nginx as a Reverse Proxy for IIS and .NET Core
+description: IIS and Kestrel used for development, and only listens to local requests. Nginx to the rescue!
 imgurl: images/blog-banner.jpg
 tags: [iis, nginx]
 ---
 
 [IIS Express](https://www.iis.net/learn/extensions/introduction-to-iis-express/iis-express-overview) is usually installed with Visual Studio, and is used to develop web applications and debug locally. It is designed to be used for development purposes, and is configured to only listen to local requests. This makes it difficult to test websites from another PC.
+
+[Kestrel](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-2.1&tabs=aspnetcore2x) is included with .NET Core SDK, and also provides a local web hosting to allow debugging.
 
 It is possible to update configuration files to allow IIS Express to listen for all requests, but there is a (in my opinion) much easier way.
 
